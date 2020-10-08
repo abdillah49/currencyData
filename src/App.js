@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 // import logo from './logo.svg';
 import { connect } from 'react-redux';
-import { Container,Row,Col,Table } from 'react-bootstrap';
+import { Container,Table } from 'react-bootstrap';
 import KeyName from './components/keyName';
 import ValueExchange from './components/valueExchange';
 import getExchangeAction from './action/getExchangeAction';
