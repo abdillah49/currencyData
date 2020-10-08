@@ -23,11 +23,7 @@ const App = props => {
       <Container style={{maxWidth:"950px"}}>
         <h2 style={{textAlign:"center"}}>CURRENCY DATA</h2>
         <br></br>
-        <Table style={{
-          background:"#56CCF2",
-          background:"-webkit-linear-gradient(to bottom, #2F80ED, #56CCF2)",
-          background:"linear-gradient(to bottom, #2F80ED, #56CCF2)"          
-        }}>
+        <Table style={{background:"linear-gradient(to bottom, #2F80ED, #56CCF2)"}}>
           <thead>
             <tr style={{textAlign:"center",color:"#ffffff"}}>
                 <th><h5>CURRENCY</h5></th>
